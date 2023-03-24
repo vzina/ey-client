@@ -1,0 +1,22 @@
+{
+    "name": "vzina/ey-client",
+    "description": "php http client",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ey\\Client\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    },
+    "authors": [
+        {
+            "name": "weijian.ye",
+            "email": "yeweijian299@163.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
